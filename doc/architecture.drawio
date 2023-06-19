@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="n6fJcraC07NGyU7uhabi" name="Page-1">
-        <mxGraphModel dx="1198" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="684" dy="1614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -216,7 +216,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="70" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#999999;strokeWidth=1;fillColor=#FFFFFF;fontColor=#6C767D;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=14;spacing=10;" vertex="1" parent="1">
-                    <mxGeometry x="10" y="1060" width="400" height="160" as="geometry"/>
+                    <mxGeometry x="10" y="1060" width="400" height="190" as="geometry"/>
                 </mxCell>
                 <mxCell id="72" value="" style="endArrow=classic;html=1;strokeWidth=3;curved=1;" edge="1" parent="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -272,6 +272,51 @@
                 <mxCell id="79" value="Associating mgmt vpc to phz in each account" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="78">
                     <mxGeometry y="-3" relative="1" as="geometry">
                         <mxPoint x="165" y="-3" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="80" value="OnPremise" style="fillColor=#EFF0F3;strokeColor=none;dashed=0;verticalAlign=top;fontStyle=0;fontColor=#232F3D;" vertex="1" parent="1">
+                    <mxGeometry x="890" y="60" width="340" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;strokeWidth=3;startArrow=none;startFill=0;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" edge="1" parent="1" source="81" target="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1048" y="510"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="84" value="aws.internal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="83">
+                    <mxGeometry x="0.4219" y="-24" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="81" value="infoblox" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dns_server;" vertex="1" parent="1">
+                    <mxGeometry x="1010" y="129" width="76.5" height="92.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;strokeWidth=3;startArrow=none;startFill=0;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" edge="1" parent="1" source="19" target="81">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="630" y="270"/>
+                            <mxPoint x="1048" y="270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="85" value="onpremise.internal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="82">
+                    <mxGeometry x="-0.2631" y="-7" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="86" value="" style="endArrow=classic;html=1;strokeWidth=3;curved=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="30" y="1207" as="sourcePoint"/>
+                        <mxPoint x="70" y="1207" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="40" y="1207"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="87" value="Hybrid DNS&amp;nbsp; Flow" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="86">
+                    <mxGeometry y="-3" relative="1" as="geometry">
+                        <mxPoint x="190" y="-3" as="offset"/>
                     </mxGeometry>
                 </mxCell>
             </root>
