@@ -14,7 +14,7 @@ This repository shows how to architect
 * vpc id stored in ssm parameter /CNS/resources/vpc_id
 * phz id stored in ssm parameter /CNS/resources/r53/private_zone_id
 
-## Deploy Local
+## Components
 
 ### Deploy resolvers and RAM in network management
 * Choose static private IPs for inbound/outbound Resolver which can be useful when setup on premise dns forwarding
@@ -32,6 +32,9 @@ This repository shows how to architect
 * In network management account, delete the autorization
 
 ### Associating R53 outbound resolver rules in spoke accounts
+
+
+## Deploy Local
 
 ```bash
 aws sts get-caller-identity
